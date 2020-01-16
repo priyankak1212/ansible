@@ -1,0 +1,13 @@
+---
+# tasks file for proxmox-stop
+ - proxmox_kvm:
+     api_user    : root@pam
+     api_password: '%juD\LTNhVES6z32'
+     api_host    : 103.224.242.111
+     name        : priyanka-test
+     node        : RB71124
+     vmid        : 120
+     state       : stopped
+     force       : yes
+
+

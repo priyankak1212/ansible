@@ -1,0 +1,14 @@
+---
+# tasks file for proxmox-config
+ - proxmox_kvm:
+     api_user    : root@pam
+     api_password: '%juD\LTNhVES6z32'
+     api_host    : 103.224.242.111
+     name        : priyanka-test
+     node        : RB71124
+     vmid        : 120
+     hostname    : centos.example.com
+     ide         : '{"ide2":"local:iso/CentOS-7-x86_64-Minimal-1810.iso,media=cdrom"}'
+     state       : present
+
+
