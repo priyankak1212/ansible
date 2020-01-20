@@ -1,4 +1,4 @@
 ---
 # defaults file for mysql-secure
 
-root_db_password: '!@Priyankak1234'
+root_db_password: ''
